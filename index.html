@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Undangan Pernikahan Tovi & Astri</title>
+<meta property="og:title" content="Undangan Pernikahan Tovi & Astri">
+<meta property="og:description" content="Jumat, 23 Oktober 2026 - Loce">
+<meta property="og:image" content="foto/pasangan.jpg">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&family=Lora&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head>
+<body class="locked">
+<section id="cover">
+ <div class="blob b1"></div><div class="blob b2"></div>
+ <h1 class="script big">Undangan</h1><p class="script mid">Pernikahan</p>
+ <h2 class="script names">Tovi &amp; Astri</h2>
+ <div class="oval"><img src="foto/pasangan.jpg" alt="Tovi dan Astri"></div>
+ <p class="date">Jumat, 23 Oktober 2026</p>
+ <p class="to">Kepada Yth.<br>Bapak/Ibu/Saudara/i :</p>
+ <div class="guest" id="guest">Tamu Undangan</div>
+ <button id="openBtn">Buka Undangan</button>
+ <p class="small">Mohon maaf bila ada kesalahan penulisan nama/gelar</p>
+</section>
+
+<main id="main" hidden>
+ <section class="card fade"><div class="blob b1"></div><div class="blob b2"></div>
+  <p class="verse">"Dan di atas semuanya itu: kenakanlah kasih, sebagai pengikat yang mempersatukan dan menyempurnakan."<br>Kolose 3:14</p>
+  <h2 class="script name">Oktavianus Lambut</h2>
+  <p>Putra dari Bapak Nikodemus Lambut<br>dan Ibu Rofina Lujut</p>
+  <h2 class="script amp">&amp;</h2>
+  <h2 class="script name">Maria R S Astri</h2>
+  <p>Putri dari Bapak Fabianus Sudarmi<br>dan Ibu Monika Odin</p>
+  <p class="gap">Dengan ini kami mengundang Bapak/Ibu/Saudara/i untuk hadir pada acara pernikahan putra dan putri kami.</p>
+  <h3 class="dt">Jumat, 23 Oktober 2026</h3>
+ </section>
+
+ <section class="card fade">
+  <div id="count"><div><b id="d">0</b>Hari</div><div><b id="h">0</b>Jam</div><div><b id="m">0</b>Menit</div><div><b id="s">0</b>Detik</div></div>
+ </section>
+
+ <section class="card fade">
+  <div class="ev"><h4>Pemberkatan</h4><p>Pukul 09.00 Wita<br>Gereja Paroki St. Fransiskus<br>Xaverius - Loce</p>
+   <a class="btn" id="mapChurch" target="_blank" rel="noopener">Lihat Lokasi</a></div>
+  <div class="ev"><h4>Resepsi</h4><p>Pukul 12.00 Wita - Selesai<br>Halaman Rumah Bapak<br>Wenseslaus L. Odos - Loce</p>
+   <a class="btn" id="mapRecep" target="_blank" rel="noopener">Lihat Lokasi</a></div>
+  <p class="gap">Merupakan suatu kehormatan Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada kedua mempelai</p>
+ </section>
+
+ <section class="card fade" id="galSec"><h3 class="script name">Galeri</h3><div id="gallery"></div></section>
+
+ <section class="card fade">
+  <div class="two"><div><p>Turut Mengundang<br><b>Keluarga Pria</b><br>Keluarga Besar Repok<br>Satarmese</p></div>
+  <div><p>Turut Mengundang<br><b>Keluarga Wanita</b><br>Keluarga Loce</p></div></div>
+  <a class="btn" id="rsvp" target="_blank" rel="noopener">Konfirmasi Kehadiran (WhatsApp)</a>
+  <button class="btn" id="share">Bagikan Undangan</button>
+ </section>
+</main>
+
+<button id="music" hidden aria-label="Musik">&#9835;</button>
+<audio id="bgm" loop src="musik.mp3" preload="none"></audio>
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body></html>
